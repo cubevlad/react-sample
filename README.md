@@ -28,7 +28,7 @@ run:       yarn dev
 
 # Technologies
 
-## [React](https://reactjs.org/), [Typescript](https://www.typescriptlang.org/), [Vite](https://vitejs.dev/), [Vitest](https://vitest.dev/), [MUI](https://mui.com/)
+## [React](https://reactjs.org/), [Typescript](https://www.typescriptlang.org/), [Vite](https://vitejs.dev/), [Vitest](https://vitest.dev/), [MUI](https://mui.com/), [FSD](https://feature-sliced.design/)
 
 ---
 
