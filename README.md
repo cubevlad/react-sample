@@ -1,4 +1,4 @@
-# **React project**
+# **React project** called all-in-one-in-prod
 
 ### to learn things and practice frontend knowledges
 
