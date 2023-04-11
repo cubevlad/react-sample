@@ -4,9 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
+    "dev": "yarn install && vite",
+    "build": "yarn install && tsc && vite build",
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },

@@ -1,4 +1,5 @@
 import { PaletteMode } from '@mui/material';
+import { DARK_THEME_COLORS, LIGHT_THEME_COLORS, THEME_SHADOWS } from './colors';
 
 export const getThemePalette = (mode: PaletteMode) => ({
   palette: {
@@ -6,12 +7,13 @@ export const getThemePalette = (mode: PaletteMode) => ({
     ...(mode === 'light'
       ? {
           colors: {
-            contentBackground: '#F8FAFB',
-            mainBackground: '#FFFFFF',
-            text: '#000',
+            contentBackground: LIGHT_THEME_COLORS.seasalt,
+            mainBackground: LIGHT_THEME_COLORS['pure-white'],
+            text: LIGHT_THEME_COLORS['pure-dark'],
           },
         }
       : {
+          // TODO: wip
           colors: {
             contentBackground: '#F8FAFB',
             mainBackground:
@@ -29,4 +31,5 @@ export const getThemePalette = (mode: PaletteMode) => ({
       fontWeight: 700,
     },
   },
+  // shadows: {},
 });
