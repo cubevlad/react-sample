@@ -1,4 +1,4 @@
-# **React project** called all-in-one-in-prod
+# **Sample React project**
 
 ### to learn things and practice frontend knowledges
 
@@ -14,21 +14,21 @@ run:       yarn dev
 
 # Features
 
-### 1. router - not ready
+### router - WIP <br>
 
-### 2. form-creator && form validator -- not ready
+### form-creator && form validator -- not started <br> 
 
-### 3. api-calling lib -- not ready
+### state manager - not started <br>
 
-### 4. theme-palette -- not ready
+### api-calling lib -- not started <br>
 
-### 5. ui lib - not ready
+### main app features - not started <br>
 
-### 6. write test cases r test case -- not ready
+### 6. write test cases r test case -- not started <br>
 
 # Technologies
 
-## [React](https://reactjs.org/), [Typescript](https://www.typescriptlang.org/), [Vite](https://vitejs.dev/), [Vitest](https://vitest.dev/), [MUI](https://mui.com/), [FSD](https://feature-sliced.design/)
+#### [React](https://reactjs.org/)  [Typescript](https://www.typescriptlang.org/)   [Vite](https://vitejs.dev/) [Vitest](https://vitest.dev/)   [Material-UI](https://mui.com/)   [Feature-Sliced-Design](https://feature-sliced.design/)
 
 ---
 
