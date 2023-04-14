@@ -24,7 +24,7 @@ run:       yarn dev
 
 ### main app features - not started <br>
 
-### 6. write test cases r test case -- not started <br>
+### test covering -- not started <br>
 
 # Technologies
 
