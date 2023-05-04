@@ -1,6 +1,6 @@
 # **Sample React project**
 
-### to learn things and practice frontend knowledges
+### to learn things and practice frontend knowledge
 
 ---
 
@@ -12,23 +12,9 @@ install:   yarn install
 run:       yarn dev
 ```
 
-# Features
-
-### router - WIP <br>
-
-### form-creator && form validator -- not started <br> 
-
-### state manager - not started <br>
-
-### api-calling lib -- not started <br>
-
-### main app features - not started <br>
-
-### test covering -- not started <br>
-
 # Technologies
 
-#### [React](https://reactjs.org/)  [Typescript](https://www.typescriptlang.org/)   [Vite](https://vitejs.dev/) [Vitest](https://vitest.dev/)   [Material-UI](https://mui.com/)   [Feature-Sliced-Design](https://feature-sliced.design/)
+#### [React](https://reactjs.org/) [Typescript](https://www.typescriptlang.org/) [Vite](https://vitejs.dev/) [Vitest](https://vitest.dev/) [Material-UI](https://mui.com/) [Feature-Sliced-Design](https://feature-sliced.design/)
 
 ---
 

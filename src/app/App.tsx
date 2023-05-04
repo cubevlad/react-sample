@@ -18,7 +18,7 @@ export const App = (props: any) => {
   const theme = useThemeLayout();
 
   return (
-    <StyledMain onClick={theme.toggleColorMode}>
+    <StyledMain /* onClick={theme.toggleColorMode} */>
       <SomeComponent />
       <Typography> Hello world </Typography>
     </StyledMain>
