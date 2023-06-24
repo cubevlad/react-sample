@@ -1,4 +1,4 @@
-import { useThemeLayout } from '@app/theme';
+import { useThemeLayout } from '@app/shared/theme';
 import styled from 'styled-components';
 import './resetBrowserStyles.css';
 import { Typography } from '@mui/material';
