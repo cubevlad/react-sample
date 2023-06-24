@@ -4,9 +4,7 @@ import { ThemeLayout } from '@app/theme';
 import { App } from './app';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <React.StrictMode>
-    <ThemeLayout>
-      <App />
-    </ThemeLayout>
-  </React.StrictMode>,
+  <ThemeLayout>
+    <App />
+  </ThemeLayout>,
 );
