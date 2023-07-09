@@ -8,11 +8,11 @@
     "build": "yarn install && tsc && vite build",
     "test": "vitest",
     "coverage": "vitest run --coverage",
+    "prepare": "husky install",
     "precommit": "lint-staged"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
-      "prettier --single-quote --write",
       "git add"
     ]
   },
