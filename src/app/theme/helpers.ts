@@ -1,4 +1,5 @@
-import { PaletteMode } from '@mui/material';
+import type { PaletteMode } from '@mui/material';
+
 import { DARK_THEME_COLORS, LIGHT_THEME_COLORS, THEME_SHADOWS } from './colors';
 
 export const getThemePalette = (mode: PaletteMode) => ({

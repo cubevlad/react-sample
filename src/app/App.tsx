@@ -1,7 +1,9 @@
-import { useThemeLayout } from "@app/shared/theme";
-import styled from "styled-components";
-import "./resetBrowserStyles.css";
 import { Typography } from "@mui/material";
+import styled from "styled-components";
+
+import { useThemeLayout } from "@app/theme";
+
+import "./resetBrowserStyles.css";
 
 const SomeComponent = () => <Typography variant="h1"> TITLE </Typography>;
 
