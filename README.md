@@ -1,6 +1,6 @@
 # **Sample React project**
 
-### to learn things and practice frontend knowledge
+### template for projects
 
 ---
 
