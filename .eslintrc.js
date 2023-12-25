@@ -4,5 +4,5 @@ module.exports = {
     project: ['./tsconfig.json'],
     tsconfigRootDir: __dirname,
   },
-  extends: ['@frknnice/eslint-config'],
+  extends: ['@frknnice/eslint-config', 'plugin:@tanstack/eslint-plugin-query/recommended'],
 }

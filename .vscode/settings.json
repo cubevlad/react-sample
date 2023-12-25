@@ -4,7 +4,7 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "stylelint.validate": ["css", "scss", "less", "typescript", "typescriptreact"],
   "stylelint.packageManager": "yarn",
-  "cSpell.words": ["frknnice", "precommit"],
+  "cSpell.words": ["frknnice", "precommit", "tanstack"],
   "docwriter.hotkey.mac": "⌥ + .",
   "docwriter.style": "JSDoc",
   "docwriter.language": "Russian",
