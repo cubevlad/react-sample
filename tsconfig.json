@@ -6,21 +6,25 @@
     "allowJs": true,
     "checkJs": false,
     "skipLibCheck": true,
-    "esModuleInterop": false,
+    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "ESNext",
+    "module": "CommonJS",
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "noImplicitReturns": true,
     "noEmit": true,
-    "jsx": "react-jsx",
+    "jsx": "preserve",
     "baseUrl": ".",
-    "rootDir": "./src",
+    "rootDir": ".",
     "outDir": "dist",
     "declaration": true,
     "sourceMap": true,
+    "pretty": true,
+    "downlevelIteration": true,
+    "useUnknownInCatchVariables": false,
     "paths": {
       "@app/*": ["./src/app/*"],
       "@entities/*": ["./src/entities/*"],
@@ -31,6 +35,13 @@
       "@mui/styled-engine": ["./node_modules/@mui/styled-engine-sc"]
     }
   },
-  "include": ["src"],
+  "exclude": ["node_modules", "./config/*"],
+  "include": [
+    "src",
+    ".eslintrc.js",
+    "prettier.config.js",
+    "lint-staged.config.mjs",
+    "vite.config.ts"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

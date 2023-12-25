@@ -1,11 +1,11 @@
-import { Typography } from "@mui/material";
-import styled from "styled-components";
+import { Typography } from '@mui/material'
+import styled from 'styled-components'
 
-import { useThemeLayout } from "@app/theme";
+import { useThemeLayout } from '@app/theme'
 
-import "./resetBrowserStyles.css";
+import './resetBrowserStyles.css'
 
-const SomeComponent = () => <Typography variant="h1"> TITLE </Typography>;
+const SomeComponent = () => <Typography variant='h1'> TITLE </Typography>
 
 // remove
 const StyledMain = styled.main`
@@ -14,15 +14,15 @@ const StyledMain = styled.main`
   background: ${({ theme }) => theme.palette.colors.mainBackground};
   color: ${({ theme }) => theme.palette.colors.text};
   min-height: 100vh;
-`;
+`
 
 export const App = (props: any) => {
-  const theme = useThemeLayout();
+  const theme = useThemeLayout()
 
   return (
     <StyledMain /* onClick={theme.toggleColorMode} */>
       <SomeComponent />
       <Typography> Hello world </Typography>
     </StyledMain>
-  );
-};
+  )
+}

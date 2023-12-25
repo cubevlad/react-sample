@@ -1,0 +1,16 @@
+{
+  "cSpell.language": "ru,ru-RU,en-US,en-GB,en",
+  "cSpell.enabled": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "stylelint.validate": ["css", "scss", "less", "typescript", "typescriptreact"],
+  "stylelint.packageManager": "yarn",
+  "cSpell.words": ["frknnice", "precommit"],
+  "docwriter.hotkey.mac": "⌥ + .",
+  "docwriter.style": "JSDoc",
+  "docwriter.language": "Russian",
+  "docwriter.hotkey.windows": "Alt + .",
+  "sonarlint.connectedMode.project": {
+    "connectionId": "https-sonarqube-dev-aniklab-com-",
+    "projectKey": "remote-module-bim"
+  }
+}
