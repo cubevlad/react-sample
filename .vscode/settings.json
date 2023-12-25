@@ -8,9 +8,5 @@
   "docwriter.hotkey.mac": "⌥ + .",
   "docwriter.style": "JSDoc",
   "docwriter.language": "Russian",
-  "docwriter.hotkey.windows": "Alt + .",
-  "sonarlint.connectedMode.project": {
-    "connectionId": "https-sonarqube-dev-aniklab-com-",
-    "projectKey": "remote-module-bim"
-  }
+  "docwriter.hotkey.windows": "Alt + ."
 }
