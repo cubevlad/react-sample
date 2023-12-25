@@ -41,7 +41,8 @@
     ".eslintrc.js",
     "prettier.config.js",
     "lint-staged.config.mjs",
-    "vite.config.ts"
+    "vite.config.ts",
+    "vitest.config.ts"
   ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

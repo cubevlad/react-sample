@@ -513,10 +513,10 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.56.0.tgz#ef20350fec605a7f7035a01764731b2de0f3782b"
   integrity sha512-gMsVel9D7f2HLkBma9VbtzZRehRogVRfbr++f06nL2vnCGCNlzOD+/MUov/F4p8myyAHspEhVobgjpX64q5m6A==
 
-"@frknnice/eslint-config@1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@frknnice/eslint-config/-/eslint-config-1.0.8.tgz#4ceff1f9557591bfe12d638a443c6199b92337d3"
-  integrity sha512-lBDJFfvDyWIIVJMS9eNcXCQAWNhLqrjCN7uveGdB7zMVpOl8KEkeJnZcATF3mKUbZTxIWARUmXdM+yoLh4tJKA==
+"@frknnice/eslint-config@1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@frknnice/eslint-config/-/eslint-config-1.0.9.tgz#768b7e71f0ee822d16ce6a1fc8162afb40a6291b"
+  integrity sha512-6/veplWPvH66Rz7EyiDTbrMdFVOHd2YURlPqNsXcfCSIOhdzwU8pz2iQ3a4UH7qKoU2m5lfEA4iZMHajh5GMqA==
 
 "@frknnice/feature-hooks@1.0.1":
   version "1.0.1"
