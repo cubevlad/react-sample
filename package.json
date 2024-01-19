@@ -3,7 +3,7 @@
   "private": false,
   "version": "1.0.0",
   "scripts": {
-    "dev": "yarn install && vite",
+    "start": "yarn install && vite",
     "build": "yarn install && tsc && vite build",
     "test": "vitest",
     "coverage": "vitest run --coverage",

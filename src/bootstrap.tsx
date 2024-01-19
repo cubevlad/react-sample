@@ -5,8 +5,6 @@ import ReactDOM from 'react-dom/client'
 import { App } from './app'
 import './styles/resetBrowserStyles.css'
 
-const root = document.getElementById('root')
+const root = document.getElementById('root') as HTMLElement
 
-if (root) {
-  ReactDOM.createRoot(root).render(<App />)
-}
+ReactDOM.createRoot(root).render(<App />)
