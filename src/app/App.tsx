@@ -1,5 +1,11 @@
-import { Typography } from '@mui/material'
+import { BrowserRouter } from 'react-router-dom'
+
+import { Routing } from '@pages/index'
 
 export const App = () => {
-  return <Typography> Hello world </Typography>
+  return (
+    <BrowserRouter>
+      <Routing />
+    </BrowserRouter>
+  )
 }
