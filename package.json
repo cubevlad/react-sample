@@ -42,6 +42,7 @@
   "devDependencies": {
     "@frknnice/eslint-config": "1.0.11",
     "@tanstack/eslint-plugin-query": "^5.14.6",
+    "@testing-library/react": "^14.1.2",
     "@types/react": "18.0.26",
     "@types/react-dom": "18.0.9",
     "@types/styled-components": "5.1.26",
@@ -60,6 +61,7 @@
     "eslint-plugin-prettier": ">= 5.1.2",
     "eslint-plugin-react": ">= 7.33.2",
     "eslint-plugin-react-hooks": ">= 4.6.0",
+    "jsdom": "^24.0.0",
     "postcss": "^8.4.33",
     "postcss-styled-syntax": "^0.6.4",
     "prettier": ">= 3.1.1",
