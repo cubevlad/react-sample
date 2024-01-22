@@ -1,11 +1,11 @@
-import { BrowserRouter } from 'react-router-dom'
-
 import { Routing } from '@pages/index'
+
+import { AppProvider } from './providers'
 
 export const App = () => {
   return (
-    <BrowserRouter>
+    <AppProvider>
       <Routing />
-    </BrowserRouter>
+    </AppProvider>
   )
 }
