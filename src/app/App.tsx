@@ -1,4 +1,4 @@
-import { Routing } from '@pages/index'
+import { Routing } from '@pages'
 
 import { AppProvider } from './providers'
 
