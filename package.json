@@ -5,7 +5,7 @@
   "scripts": {
     "start": "yarn install && vite",
     "build": "yarn install && tsc && vite build",
-    "test": "vitest",
+    "test": "vitest run",
     "coverage": "vitest run --coverage",
     "prepare": "husky install",
     "precommit": "lint-staged",
