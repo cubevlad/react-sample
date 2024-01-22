@@ -8,7 +8,16 @@
     "test": "vitest",
     "coverage": "vitest run --coverage",
     "prepare": "husky install",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "lint": "yarn eslint ./src --ext .js,.ts,.tsx",
+    "lint:fix": "yarn eslint ./src --fix --ext .js,.ts,.tsx",
+    "lint-css": "yarn stylelint ./src --config ./.stylelintrc",
+    "lint-css:fix": "yarn stylelint --fix ./src --config ./.stylelintrc"
+  },
+  "engines": {
+    "node": ">=20",
+    "npm": "use yarn instead",
+    "yarn": ">=1"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
@@ -51,10 +60,12 @@
     "eslint-plugin-prettier": ">= 5.1.2",
     "eslint-plugin-react": ">= 7.33.2",
     "eslint-plugin-react-hooks": ">= 4.6.0",
+    "postcss": "^8.4.33",
+    "postcss-styled-syntax": "^0.6.4",
     "prettier": ">= 3.1.1",
-    "stylelint": "^16.2.0",
-    "stylelint-config-rational-order": "^0.1.2",
-    "stylelint-config-standard-scss": "^13.0.0",
+    "stylelint": "15.11.0",
+    "stylelint-config-rational-order": "0.1.2",
+    "stylelint-config-standard-scss": "11.0.0",
     "typescript": ">= 5.3.3",
     "vite": "4.0.0",
     "vite-tsconfig-paths": "4.0.5",
@@ -63,5 +74,9 @@
   "resolutions": {
     "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "author": {
+    "name": "vladislav",
+    "email": "kubasovvv07@gmail.com"
+  }
 }

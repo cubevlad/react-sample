@@ -37,8 +37,10 @@
   },
   "exclude": ["node_modules", "./config/*"],
   "include": [
-    "src",
+    "./public",
+    "./src/**/*",
     ".eslintrc.js",
+    ".stylelintrc.js",
     "prettier.config.js",
     "lint-staged.config.mjs",
     "vite.config.ts",
