@@ -1,0 +1,106 @@
+{
+  "ReactComponent": {
+    "scope": "typescriptreact",
+    "prefix": ["rc", "react-component"],
+    "body": [
+      "import React, { FC } from 'react';",
+      "",
+      "export default (() => {",
+      "",
+      "  return (",
+      "    <>",
+      "       ${3:}",
+      "    </>",
+      "  );",
+      "}) as FC;"
+    ],
+    "description": "base component"
+  },
+  "ReactComponent with Props": {
+    "scope": "typescriptreact",
+    "prefix": ["rcp", "react-component-prop"],
+    "body": [
+      "import React, { FC } from 'react';",
+      "",
+      "type Props = {",
+      "  ${1:propName}: ${2:PropType};",
+      "}",
+      "",
+      "export default ((props) => {",
+      "  const { ${1:propName} } = props;",
+      "",
+      "  return (",
+      "    <>",
+      "       ${3:}",
+      "    </>",
+      "  );",
+      "}) as FC<Props>;"
+    ],
+    "description": "base component with props"
+  },
+  "Layer function": {
+    "scope": "typescript",
+    "prefix": ["lf", "layer function"],
+    "body": ["export default (): void => {", "  ${1:}", "};"],
+    "description": "layer function"
+  },
+  "Layer function with Props": {
+    "scope": "typescript",
+    "prefix": ["lfp", "layer function with props"],
+    "body": [
+      "export type ${1:PropTypeName} = {",
+      "  ${2:propFieldName}: ${3:PropType};",
+      "};",
+      "",
+      "export default (${4:propName}:${1:PropTypeName}): void => {",
+      "  const { ${2:propFieldName} } = ${4:propName}",
+      "",
+      "  ${5:}",
+      "};"
+    ],
+    "description": "layer function with props"
+  },
+  "Describe with it.todo": {
+    "scope": "typescriptreact",
+    "prefix": ["dt", "Describe with it.todo"],
+    "body": [
+      "import ${TM_FILENAME/(.*)\\.test\\..+$/$1/} from '.';",
+      "",
+      "describe('Test ${TM_FILENAME/(.*)\\.test\\..+$/$1/}', () => {",
+      "  it.todo('should ...');",
+      "});",
+      ""
+    ],
+    "description": "layer function with props"
+  },
+  "createFc": {
+    "scope": "typescriptreact",
+    "prefix": "crfc",
+    "body": [
+      "",
+      "",
+      "",
+      "type ${1:${TM_FILENAME_BASE}}Props = {",
+      "}",
+      "",
+      "export const ${1:${TM_FILENAME_BASE}}: React.FC<${1:${TM_FILENAME_BASE}}Props> = ({}) => {",
+      "  return (",
+      "    <div>",
+      "      ",
+      "    </div>",
+      "  )",
+      "}"
+    ],
+    "description": "create React FC component"
+  },
+  "createHook": {
+    "prefix": "crh",
+    "body": [
+      "export const ${1:${TM_FILENAME_BASE}} = () => {",
+      "  ",
+      "  return useMemo(() => ({}), [])",
+      "}"
+    ],
+    "description": "createHook"
+  }
+}
