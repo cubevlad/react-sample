@@ -25,7 +25,7 @@
     ]
   },
   "dependencies": {
-    "@frknnice/feature-hooks": "1.0.1",
+    "@frknnice/feature-hooks": "1.0.2",
     "@lukemorales/query-key-factory": "^1.3.2",
     "@mui/icons-material": "5.11.0",
     "@mui/material": "5.11.6",

@@ -703,10 +703,10 @@
   resolved "https://registry.yarnpkg.com/@frknnice/eslint-config/-/eslint-config-1.0.11.tgz#3b657338c15fdf12c357b5e872640db2ab4d0b4a"
   integrity sha512-GM22ZSKzu8fxKeuwskGWOZbouhFUfobJApAHrppLCpzduFD/X853x2w7KGHOovR17KX4thW1KKGfhmQ2RsVRMQ==
 
-"@frknnice/feature-hooks@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@frknnice/feature-hooks/-/feature-hooks-1.0.1.tgz#7486066c3934c0711d74fbf8812a6919bed5666a"
-  integrity sha512-fkVHJeawPEa4UmrrCsjhhyKnYag5pLADb0JqNzNj1KQwOM5ov7WdzU/puTIiZrIWTC3uNyypM0DDXgNq9y1bfg==
+"@frknnice/feature-hooks@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@frknnice/feature-hooks/-/feature-hooks-1.0.2.tgz#5d251248ad79625176da47f7ec2bf4a576bea129"
+  integrity sha512-/jTXioLETIkx/Mp2tm8wt92gU3GrC1wz7yeWH8YiaC0ROWxYKSLOmesx/NejFo5cc6fVOWsp8Pll+2Jh2BJ0MA==
 
 "@humanwhocodes/config-array@^0.11.13":
   version "0.11.13"
